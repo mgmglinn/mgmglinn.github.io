@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="request.php" method="post">
+        <h1>Student Imformation</h1>
+        <label for="name1">Name</label>
+        <input type="text" name="stu_name" id="name1" placeholder="First Name" required>
+        <input type="text" name="stu_name" id="name2" placeholder="Middle Name" required>
+        <input type="text" name="stu_name" id="name3" placeholder="Last Name" required>
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="stu_phone" id="phone" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="stu_email" id="email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="stu_pass" id="password" required>
+        <br><br>
+        <button type="submit">Submit</button>
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" name="stu_passport" id="passport" accept="image/*">
+        <br><br>
+        <label for="years">Student Years</label>
+        <select name="stu_years" id="years">
+            <option value="">Choose</option>
+            <option value="1">First</option>
+            <option value="2">Second</option>
+            <option value="3">Third</option>
+        </select>
+        <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu_address" id="address" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="">Hobbies</label>
+        <input type="radio" name="Hobby" id="football"><label for="football">Football</label>
+        <input type="radio" name="Hobby" id="singing"><label for="singing">Singing</label>
+        <input type="radio" name="Hobby" id="dancing"><label for="dancing">Dancing</label>
+        <br><br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <input type="datetime-local"><br>
+        <input type="week">
+        <input type="color">
+        <label for="mark">Marks</label>
+        <input type="range" min="0" max="100" name="stu_mark" id="mark" value="40">
+    </form> 
+</body>
+</html>
