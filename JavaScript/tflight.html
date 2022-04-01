@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let traffic_light = prompt("Enter light color")
+        if( traffic_light == 'green' || traffic_light == 'Green'){
+            document.write('<h1>You can go now</h1>')
+        } else if(traffic_light == 'yellow' || traffic_light == 'Yellow'){
+            document.write('<h1>Warning to red light</h1>')
+        } else if(traffic_light == 'red' || traffic_light == 'Red'){
+            document.write('<h1>Stop</h1>')
+        } else {
+            document.write('Error!!!!')
+        }
+    </script>
+</body>
+</html>
